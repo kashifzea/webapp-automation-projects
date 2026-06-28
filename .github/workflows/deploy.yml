@@ -20,4 +20,3 @@ jobs:
           key: ${{ secrets.VM_KEY }}
           source: "."
           target: "/var/www/html"
-          exclude: ".git"
